@@ -1,34 +1,11 @@
-target/
-
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-buildNumber.properties
-.mvn/timing.properties
-# https://github.com/takari/maven-wrapper#usage-without-binary-jar
-.mvn/wrapper/maven-wrapper.jar
-
-*/*.iml
-*/*.log
-
-# Created by .ignore support plugin (hsz.mobi)
-### GitBook template
-# Node rules:
-## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
 .idea
 
-## Dependency directory
-## Commenting this out is preferred by some people, see
-## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
-node_modules
+target/
 
-# Book build output
-_book
+pom.xml.*
+release.properties
+buildNumber.properties
+.mvn
 
-# eBook build output
-*.epub
-*.mobi
-*.pdf
+*.iml
+*.log
